@@ -65,3 +65,4 @@
 
    (triangle is possible only when sum of any two sides is greater than 3rd side)
 
+ 21 this is question
