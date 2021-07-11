@@ -1,3 +1,5 @@
+ conditional statements questions:
+ ---------------------------------
  1 Write a program to check whether a person is eligible for voting or not. (accept age from user)
  2 Write a program to check whether a person is senior citizen or not.
  3 Write a program to check whether a number (accepted from user) is positive or negative.
@@ -20,7 +22,7 @@
  11 A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
     Ask user for their salary and year of service and print the net bonus amount.
  12 Take values of length and breadth of a rectangle from user and check if it is square or not.
- 13  Accept the age, sex (‘M’, ‘F’), number of days and display the wages accordingly
+ 13  Accept the age, gender (‘M’, ‘F’), number of days and display the wages accordingly
 
      Age	Sex	Wage/day
      >=18 and <30	M	700
@@ -31,6 +33,7 @@
     Note :
     An equilateral triangle is a triangle in which all three sides are equal.
     A scalene triangle is a triangle that has three unequal sides.
+    A isosceles triangle is a triangle that has two sides.
 
 15  Write a program to accept percentage and display the Category according to the  following criteria :
     Percentage	Category
@@ -45,24 +48,113 @@
    >7000 and <=10000	15%
               <=7000	10%
 
-17   Write a program to check a character is vowel or not.
 
-18   A company decided to give bonus to employee according to following criteria:
+17   A company decided to give bonus to employee according to following criteria:
      Time period of Service                Bonus
      More than 10 years                    10%
             >=6 and <=10                   8%
             Less than 6 years              5%
      Ask user for their salary and years of service and print the net bonus amount.
 
-19  Write a program to accept percentage and display the Category according to the  following criteria :
+18  Write a program to accept percentage and display the Category according to the  following criteria :
     Percentage	Category
     < 40    	Failed
     >=40 & <55	 Fair
     >=55 & <65	 Good
     >=65	    Excellent
 
-20 Accept three sides of triangle and check whether the triangle is possible or not.
+19 Accept three sides of triangle and check whether the triangle is possible or not.
 
    (triangle is possible only when sum of any two sides is greater than 3rd side)
 
- 21 this is question
+ 
+
+List Questions:
+---------------
+1) Create a list of 5 names = “Aditya”,”NITIN”,”Somaya”,”Bhuvana”,”Hari priya”’
+a) Insert a name “Shiwani” before “Aditya”
+c) Append a name “Sizuka”
+d) Delete a name “Somaya”
+e) Replace “Aditya” with “Adi”
+f) Sort all the names in the list
+g) Print the reverse sorted list
+
+17   Write a program to check a character is vowel or not.
+
+2)Write in python to generate and store in a list 20 random numbers in the range 10 to 100.
+From this list delete all those entries which have values between 20 and 50.Print the remaining list
+ A)Create a list of 5 odd numbers
+B)Create a list of 5 even numbers 
+c)Combine two list 
+D)Add prime number 11 17 29 at the beginning of the combined list 
+E)Report how many elements present in the list 
+D)Replace last 3 numbers in the list with 100,200,300
+F)Delete all numbers in the list
+ 
+Take a list of 10 elements. Split it into middle and store the elements I two different lists 
+
+Find the largest and smallest elements in a list without using the built in function 
+
+
+
+
+LISTS
+Create a list  - a list of names, a list of ages and a list of salaries 
+
+
+Generate a list of tuple containing name, age and salary from the three lists.  From this list generate 3 tuples- one containing all ages and third containing all the salaries
+ 
+Write a program to obtain a transpose of 3X4 matrix
+
+Write a program to multiple two matrices X(2+3) and Y(2+2) using list comprehension
+ 
+Write a Python program to unzip a list of tuples into individual lists.
+
+Write a Python program to convert a given list of tuples to a list of lists.
+
+Write a Python program to unpack a tuple in several variables.
+
+Write a Python program to compute element-wise sum of given tuples.
+Original lists:
+(1, 2, 3, 4)
+(3, 5, 2, 1)
+(2, 2, 3, 1)
+Element-wise sum of the said tuples:
+(6, 9, 8, 6)
+
+Write a Python program to compute the sum of all the elements of each tuple stored inside a list of tuples. 
+Original list of tuples:
+[(1, 2), (2, 3), (3, 4)]
+Sum of all the elements of each tuple stored inside the said list of tuples:
+[3, 5, 7]
+Original list of tuples:
+[(1, 2, 6), (2, 3, -6), (3, 4), (2, 2, 2, 2)]
+Sum of all the elements of each tuple stored inside the said list of tuples:
+[9, -1, 7, 8]
+Create a list of cricketers. Use this list to create a dictionary in which the list values become key values of the dictionary. Set the values of all keys to 50 in the dictionary created.
+
+Create two lists of students and marks. Create a dictionary from these two lists using dictionary comprehension. Use names as keys and marks as value 
+
+Write a program to sort a dictionary in ascending/descending order by key and ascending /descending order by value 
+
+Write a program in python to check whether a dictionary is empty or not 
+
+Write a python program to replace the last element in a list with another list.
+Sample data : [1, 3, 5, 7, 9, 10], [2, 4, 6, 8]
+Expected Output: [1, 3, 5, 7, 9, 2, 4, 6, 8]
+
+Write a Python program to move all zero digits to end of a given list of numbers.
+
+Write a Python program to remove consecutive duplicates of a given list.
+
+Write a Python program to convert a tuple to a string
+
+Write a Python program to convert a given tuple of positive integers into an integer.
+
+Write a Python program to swap comma and dot in a string.
+Sample string: "32.054,23"
+Expected Output: "32,054.23"
+
+Write a Python program to count Uppercase, Lowercase, special character and numeric values in a given string.
+
+
