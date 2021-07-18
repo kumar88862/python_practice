@@ -56,6 +56,7 @@
             Less than 6 years              5%
      Ask user for their salary and years of service and print the net bonus amount.
 
+
 18  Write a program to accept percentage and display the Category according to the  following criteria :
     Percentage	Category
     < 40    	Failed
@@ -66,6 +67,28 @@
 19 Accept three sides of triangle and check whether the triangle is possible or not.
 
    (triangle is possible only when sum of any two sides is greater than 3rd side)
+
+
+Loops:
+------
+
+20  Write a program to print first 10 natural number.
+
+21   Write a program to print first 10 even numbers.
+
+22  Write a program to print first 10 odd numbers.
+
+23  Write a program to print first 10 even numbers in reverse order.
+
+24  Write a program to print table of a number accepted from user.
+
+25  Write a program to display product of the digits of a number accepted from the user.
+
+26  Write a program to find the factorial of a number.
+
+27   Write a program to find the sum of the digits of a number accepted from user
+
+28   Write a program to check whether a number is prime or not.
 
  
 
